@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <shape
+       android:shape="oval"
+       android:visible="true"
+       android:innerRadiusRatio="1"
+       >
+    <solid
+        android:color="#338db9e4"
+        >
+    </solid>
+
+       <stroke
+           android:width="5dp"
+           android:color="@color/colorApp"
+           />
+
+</shape>
+
+
+</inset>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949299929110",
+    "project_id": "appgeo-cf2bb",
+    "storage_bucket": "appgeo-cf2bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949299929110:android:059d8565bf287a5a38d537",
+        "android_client_info": {
+          "package_name": "com.gauss243j.appgeo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949299929110-0ih71b1cjilsglh6ahr0fk9dao62vagg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQTIyVSQPEpFvtXwDbeU7jRzHUHfhz3ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949299929110-0ih71b1cjilsglh6ahr0fk9dao62vagg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

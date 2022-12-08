@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="14dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backdialog"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorApp"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:id="@+id/title"
+    android:textSize="20dp"
+    android:text="Voulez vraiment envoyer l'alerte"
+    />
+
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/colorApp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:text="Annuler"
+        android:id="@+id/cancel"
+        android:background="@drawable/select_bottom"
+        android:layout_weight="1"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+    </View>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/send"
+        android:background="@drawable/select_bottom"
+        android:text="Envoyer"/>
+</LinearLayout>
+</LinearLayout>

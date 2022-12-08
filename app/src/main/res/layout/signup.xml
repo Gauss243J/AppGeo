@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/png" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="GeoApp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                >
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="11"
+            android:padding="8dp"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/editNom"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:textSize="12dp"
+                    android:ems="10"
+                    android:hint="Nom"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/editTextAdressMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:ems="10"
+                    android:textSize="12dp"
+                    android:hint="Adresse Mail"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+                            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:ems="10"
+                    android:textSize="12dp"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+                            </LinearLayout>
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/editTextNumeroPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:ems="10"
+                    android:textSize="12dp"
+                    android:hint="Numero Phone"
+                    android:inputType="phone" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/editTextcarte"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:textSize="12dp"
+                    android:ems="10"
+                    android:hint="Numero Carte electeur"
+                    android:inputType="number" />
+            </LinearLayout>
+
+
+                        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/btnsenregistrer"
+                    android:textColor="@color/white"
+                    android:text="S'enregistrer"
+                    >
+
+                </Button>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="se connecter"
+                    android:layout_gravity="center"
+                    android:id="@+id/conn"
+                    android:textColor="@color/teal_700"
+                    android:gravity="center"
+                    >
+                </TextView>
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

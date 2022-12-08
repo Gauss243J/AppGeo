@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GeoApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="longitude">Longitude</string>
+    <string name="latutide">Latutide</string>
+    <string name="button">button</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="passworderror">Enter a valid password</string>
+</resources>
